@@ -19,4 +19,8 @@ public class Student {
                 ", age=" + age +
                 '}';
     }
+
+    public  void hello(){
+        System.out.println("Hello");
+    }
 }
