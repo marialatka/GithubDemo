@@ -7,6 +7,11 @@ public class Student {
         this.name = name;
     }
 
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
